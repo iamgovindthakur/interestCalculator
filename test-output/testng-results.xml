@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="76" total="81" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="EMI Calculator main testcases" duration-ms="204065" started-at="2021-03-29T15:29:55 IST" finished-at="2021-03-29T15:33:19 IST">
+    <groups>
+      <group name="Main_TestCase">
+        <method signature="CarLoanTest.testCarLoan()[pri:0, instance:testCase.CarLoanTest@5b29ab61]" name="testCarLoan" class="testCase.CarLoanTest"/>
+        <method signature="HomeLoanEMICalculator.testHomeLoanEMICalculator()[pri:0, instance:testCase.HomeLoanEMICalculator@4b957db0]" name="testHomeLoanEMICalculator" class="testCase.HomeLoanEMICalculator"/>
+        <method signature="LoanAmountCalculator.testLoanAmountCalculator()[pri:0, instance:testCase.LoanAmountCalculator@1e1e837d]" name="testLoanAmountCalculator" class="testCase.LoanAmountCalculator"/>
+        <method signature="LoanEmiCalculator.testEMICalculator()[pri:0, instance:testCase.LoanEmiCalculator@5c313224]" name="testEMICalculator" class="testCase.LoanEmiCalculator"/>
+        <method signature="LoanTenureCalculator.testLoanTenureCalculator()[pri:0, instance:testCase.LoanTenureCalculator@5d71b500]" name="testLoanTenureCalculator" class="testCase.LoanTenureCalculator"/>
+      </group> <!-- Main_TestCase -->
+    </groups>
+    <test name="Main testcase Test" duration-ms="204065" started-at="2021-03-29T15:29:55 IST" finished-at="2021-03-29T15:33:19 IST">
+      <class name="testCase.LoanTenureCalculator">
+        <test-method status="FAIL" signature="testLoanTenureCalculator()[pri:0, instance:testCase.LoanTenureCalculator@5d71b500]" name="testLoanTenureCalculator" duration-ms="45427" started-at="2021-03-29T15:32:32 IST" finished-at="2021-03-29T15:33:18 IST">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[Assertion : Actual is -25,000.00 And Expacted is - 25,089.18]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: Assertion : Actual is -25,000.00 And Expacted is - 25,089.18
+at org.testng.Assert.fail(Assert.java:99)
+at baseClasses.PageBaseClass.reportFail(PageBaseClass.java:176)
+at baseClasses.PageBaseClass.assertequals(PageBaseClass.java:162)
+at testCase.LoanTenureCalculator.testLoanTenureCalculator(LoanTenureCalculator.java:29)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:132)
+at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:599)
+at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:174)
+at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
+at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:822)
+at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:147)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.util.ArrayList.forEach(Unknown Source)
+at org.testng.TestRunner.privateRun(TestRunner.java:764)
+at org.testng.TestRunner.run(TestRunner.java:585)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:384)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:378)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:337)
+at org.testng.SuiteRunner.run(SuiteRunner.java:286)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1218)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1140)
+at org.testng.TestNG.runSuites(TestNG.java:1069)
+at org.testng.TestNG.run(TestNG.java:1037)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoanTenureCalculator -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testCase.LoanTenureCalculator@5d71b500]" name="flushReports" is-config="true" duration-ms="1150" started-at="2021-03-29T15:33:18 IST" finished-at="2021-03-29T15:33:19 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- testCase.LoanTenureCalculator -->
+      <class name="testCase.CarLoanTest">
+        <test-method status="PASS" signature="testCarLoan()[pri:0, instance:testCase.CarLoanTest@5b29ab61]" name="testCarLoan" duration-ms="29414" started-at="2021-03-29T15:29:55 IST" finished-at="2021-03-29T15:30:24 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCarLoan -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testCase.CarLoanTest@5b29ab61]" name="flushReports" is-config="true" duration-ms="1957" started-at="2021-03-29T15:30:24 IST" finished-at="2021-03-29T15:30:26 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- testCase.CarLoanTest -->
+      <class name="testCase.LoanAmountCalculator">
+        <test-method status="PASS" signature="testLoanAmountCalculator()[pri:0, instance:testCase.LoanAmountCalculator@1e1e837d]" name="testLoanAmountCalculator" duration-ms="33980" started-at="2021-03-29T15:30:56 IST" finished-at="2021-03-29T15:31:30 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLoanAmountCalculator -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testCase.LoanAmountCalculator@1e1e837d]" name="flushReports" is-config="true" duration-ms="1127" started-at="2021-03-29T15:31:30 IST" finished-at="2021-03-29T15:31:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- testCase.LoanAmountCalculator -->
+      <class name="testCase.LoanEmiCalculator">
+        <test-method status="PASS" signature="testEMICalculator()[pri:0, instance:testCase.LoanEmiCalculator@5c313224]" name="testEMICalculator" duration-ms="28368" started-at="2021-03-29T15:30:26 IST" finished-at="2021-03-29T15:30:55 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testEMICalculator -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testCase.LoanEmiCalculator@5c313224]" name="flushReports" is-config="true" duration-ms="1451" started-at="2021-03-29T15:30:55 IST" finished-at="2021-03-29T15:30:56 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- testCase.LoanEmiCalculator -->
+      <class name="testCase.HomeLoanEMICalculator">
+        <test-method status="PASS" signature="testHomeLoanEMICalculator()[pri:0, instance:testCase.HomeLoanEMICalculator@4b957db0]" name="testHomeLoanEMICalculator" duration-ms="59727" started-at="2021-03-29T15:31:31 IST" finished-at="2021-03-29T15:32:31 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testHomeLoanEMICalculator -->
+        <test-method status="PASS" signature="flushReports()[pri:0, instance:testCase.HomeLoanEMICalculator@4b957db0]" name="flushReports" is-config="true" duration-ms="1303" started-at="2021-03-29T15:32:31 IST" finished-at="2021-03-29T15:32:32 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- flushReports -->
+      </class> <!-- testCase.HomeLoanEMICalculator -->
+    </test> <!-- Main testcase Test -->
+  </suite> <!-- EMI Calculator main testcases -->
+</testng-results>

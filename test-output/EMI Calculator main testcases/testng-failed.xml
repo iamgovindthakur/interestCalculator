@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [EMI Calculator main testcases]">
+  <test thread-count="5" name="Main testcase Test(failed)">
+    <groups>
+      <run>
+        <include name="Main_TestCase"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="testCase.LoanTenureCalculator">
+        <methods>
+          <include name="testLoanTenureCalculator"/>
+          <include name="flushReports"/>
+        </methods>
+      </class> <!-- testCase.LoanTenureCalculator -->
+    </classes>
+  </test> <!-- Main testcase Test(failed) -->
+</suite> <!-- Failed suite [EMI Calculator main testcases] -->
